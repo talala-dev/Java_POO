@@ -16,13 +16,7 @@ public class Program {
     System.out.println("Perimeter: " +rectangle.Perimeter());
     System.out.println("Diagonal : " + rectangle.Diagonal());
 
-
-
-
-
-
-
-
+    
     sc.close();
   }
 }
