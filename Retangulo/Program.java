@@ -12,9 +12,9 @@ public class Program {
     System.out.println("Enter the rectangle widht and height: ");
     rectangle.height = sc.nextDouble();
     rectangle.width = sc.nextDouble();
-    System.out.println("Area: "+ rectangle.Area());
-    System.out.println("Perimeter: " +rectangle.Perimeter());
-    System.out.println("Diagonal : " + rectangle.Diagonal());
+    System.out.println("Area: "+ rectangle.area());
+    System.out.println("Perimeter: " +rectangle.perimeter());
+    System.out.println("Diagonal : " + rectangle.diagonal());
 
     sc.close();
   }

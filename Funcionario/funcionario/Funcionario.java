@@ -5,14 +5,14 @@ public class Funcionario {
   public double SalarioBruto;
   public double imposto;
 
-  public double SalarioLiquido(){
+  public double salarioLiquido(){
     return SalarioBruto - imposto;
   }
 
-  public void AumentarSalario(double porcentagem){
+  public void aumentarSalario(double porcentagem){
     SalarioBruto += SalarioBruto * porcentagem / 100.0  ;
   }
   public String toString(){
-    return nome + ", Salário: $ " + String.format("%.2f", SalarioLiquido());
+    return nome + ", Salário: $ " + String.format("%.2f", salarioLiquido());
   }
 }

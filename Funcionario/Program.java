@@ -23,7 +23,7 @@ public class Program {
     System.out.println("Funcionário: " + funcionario.toString());
 
     System.out.print("Qual a porcentagem de aumento do salário?: ");
-    funcionario.AumentarSalario(sc.nextDouble());
+    funcionario.aumentarSalario(sc.nextDouble());
 
     System.out.println();
     System.out.println("Update data: " + funcionario.toString());
